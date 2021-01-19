@@ -2,7 +2,7 @@
 Basic google search/dork tool
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="screenshot.png" alt="Logo" width="80" height="80">
   </a>
  </p> 
    <p align="center">
