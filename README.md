@@ -8,7 +8,7 @@ Basic google search/dork tool
    <p align="center">
    A basic tool for advanced google search files
     <br />
-    <a href="https://jsm33t.com/dork" target="_blank"><strong>Watch live demo »</strong></a>
+    <a href="https://jsm33t.com/dork"><strong>Watch live demo »</strong></a>
     
     
   </p>
