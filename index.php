@@ -1,84 +1,73 @@
-<!DOCTYPE html>
+<!doctypehtml>
 <html lang="en">
    <head>
-   
-      </script>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
-      <meta name="description" content="Advanced Google Search">
-      <meta name="keywords" content="search,advanced google search, download, file type search">
-      <meta name="author" content="Jsm33t">
-      <title>Advanced Search</title>
-      <link rel="icon" href="images/archive.png" type="image/icon type">
-     
-      <!-- Deriving third party resources -->
-      <title>Dorker...</title>
-      <link rel="icon" href="https://jsm33t.com/images/main_icon.png" type="image/icon type">
-      <link href="https://jsm33t.com/style.css" rel="stylesheet" >
-     <link href="custom.css" rel="stylesheet" >
-	
-	<style>
-		
-		
-		
-	</style>
-	
-	
+      <title>JSM33T — Dork Tool</title>
+      <meta content="My Place"name="description">
+      <meta charset="utf-8">
+      <meta content="JSM33T Via Rhythm"name="author">
+      <!--[if IE]>
+      <meta content="IE=edge,chrome=1"http-equiv="X-UA-Compatible">
+      <![endif]-->
+      <meta content="width=device-width,initial-scale=1"name="viewport">
+       <?php include 'cdn.php';echo $css;   //cdn files from my personal site ?>
+
    </head>
-   <body>
-      <div id="site-content">
-         <header class="site-header">
-            <div class="container">
-               <a id="branding">
-                  <div class="branding-copy">
-                     <h1 class="site-title">ARCHIVE</h1>
-                     <small class="site-description">ADVANCED GOOGLE SEARCH</small>
-                  </div>
-               </a>
-               <nav class="main-navigation">
-                  <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
-                 
-               </nav>
-               <nav class="mobile-navigation">
-               </nav>
-            </div>
-         </header>
-         
-         <main class="main-content">
-            <div class="hero">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <h1 class="hero-title">ADVANCED GOOGLE SEARCH / DORK</h1>
-                        <p>
-                           Advanced google search string creator.<br>
-                           
-                           <br><br>
-                        </p>
-              
-                     </div>
-                  </div>
+   <body class="appear-animate">
+      <div class="page-loader">
+         <div class="loader">Loading...</div>
+      </div>
+      <div class="page"id="top">
+         <nav class="main-nav js-stick ">
+            <div class="relative clearfix full-wrapper">
+               <div class="local-scroll nav-logo-wrap"><a href="#top"class="logo"><img alt="Company logo"class="op"src="https://jsm33t.com/images/j_logo_black.svg"></a></div>
+               <div class="mobile-nav"role="button"tabindex="0"><i class="fa fa-bars"></i> <span class="sr-only">Menu</span></div>
+               <div class="desktop-nav inner-nav">
+               <ul class="clearlist">
+                     <li><a href="../">HOME</a></li>
+                     
+                     <li ><a  href="../archive">GITHUB</a></li>
+                     
+                     
+                  </ul>
                </div>
             </div>
-        
-            <div class="fullwidth-block" data-bg-color="#111113">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <h2>Search panel</h2>
-                        <form>
-                           <p>
-                              <input height="60" type="text"  id="filename" placeholder="Enter keyword">
-                              <small id="filenameHelp" class="form-text text-muted">Select file type:</small>
-                           </p>
-                           <center>
-                              <div class="col-md-4">
-                                 <input height="60" type="text"  id="act" placeholder="Enter Custom Type">
+         </nav>
+         <main id="main">
+            
+          
+		   <section class="page-section bg-light parallax-6 bg-light-alfa-90"id="menu"data-background="../svg/sprinkle.svg">
+		    <div class="container relative">
+			<h2 class="font-alt mb-70 mb-sm-40 section-title">J_DORK TOOL</h2>
+                            
+                                
+                                <!-- Form -->
+							
+								
+                                <form method="post" autocomplete="off" action="#" id="form" class="form">
+									
+								<div class="row">
+									
+								
+								
+                                    <div class="col-sm-4 mb-40">
+										<div class="mb-20 mb-md-10">
+											<!-- Name -->
+                                 <div class="autocomplete" >
+											<input type="text" name="name" id="filename" class="input-md form-control" placeholder="KEYWORD/SPACE=HINT" maxlength="100">
+                                 </div>
                               </div>
-                              <div class="col-md-4">
-                                 <select id="ext2">
-                                    <option value=" ">......</option>
+									 </div>	
+									  <div class="col-sm-4 mb-40">
+										<div class="mb-20 mb-md-10">
+											<!-- Name -->
+											<input type="text" name="name" id="act" class="input-md form-control" placeholder="TYPE" maxlength="100">
+										</div>
+									 </div>	
+									
+                                    
+                                   <div class="col-sm-4 mb-40">
+                                        <select class="input-md form-control" id="ext2">
+                                            <option value=" ">......</option>
                                     <option value=" xml">.XML</option>
                                     <option value="| jpeg | jpg | png">IMAGES</option>
                                     <option value="| mp3 | flac | wav | aac">AUDIO FILES</option>
@@ -87,54 +76,47 @@
                                     <option value="| xls | xlsx | xlsm | xltx | xlsb">EXCEL FILES</option>
                                     <option value="| pptx | ppt | pptm | ppt ">POWER PPT FILES</option>
                                     <option value="| sql">.SQL (DATABASES)</option>
-                                 </select>
-                              </div>
-                              <div class="col-md-4">
-                                 <p>
-                                    <a class="button3" onclick="javascript:execcustom();" >
-                                    SEARCH
-                                    </a>
-                                 </p>
-                              </div>
-                           </center>
-                        </form>
-                        </p>
-                     </div>
-                  </div>
-                  <!-- .row -->
-               </div>
-               <!-- .container -->
-            </div>
-            <!-- .fullwidth-block -->
-            <br>
+                                        </select>
+                                    </div>
+									
+									
+									
+								</div>
+								<div clas="row">
+								
+								
+								<br><br>
+									<div class="col-sm-12 mb-40">
+									<center>
+											 <a class="btn btn-mod btn-medium btn-circle" onclick="javascript:execcustom();">
+											 <i class="fa fa-search"></i>&nbsp; SEARCH !!</a>
+									</center> 
+											 
+												
+											 
+									</div>
+                                 </div>                               
+                                </form>
+				
+		  </div>
+		  </section>
+
+          
          </main>
-         <!-- .main-content -->
-		       <footer class="site-footer">
-            <div class="container">
-            
-               <div class="social-links">
-                  <a href="https://www.facebook.com/JSM33T/" target="_blank"><i class="fa fa-facebook"></i></a>
-                  <a href="https://www.instagram.com/jsm33t" target="_blank"><i class="fa fa-instagram"></i></a>
-                  <a href="https://www.youtube.com/jsm33tmusic" target="_blank"><i class="fa fa-youtube"></i></a>
-                  <a href="https://www.soundcloud.com/jsm33t" target="_blank"><i class="fa fa-soundcloud"></i></a>
-               </div>
-               <div class="copy">
-                  <p>
-					<A class="more-link" HREF="https://jsm33t.com/">JSM33T</a>
-					<A class="more-link" HREF="https://jsm33t.com/dork">FEEDBACK</a>
-		   </p>
-               </div>
-            </div>
-         </footer>
-         <!-- .site-footer -->
-      </div>
-      <!-- #site-content -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  
-     
         
-          <script type="text/javascript">
-			<?php include 'function.js'?>
+      </div>
+	  
+
+	  
+	   <script type="text/javascript">
+			      
+  
       </script>
+	  <script src="dorker.js"type="text/javascript"></script>
+	  
+ <?php include 'cdn.php';echo $js;   //cdn files from my personal site ?>
+     
+     
+      <!--[if lt IE 10]><script src="https://jsm33t.com/js/placeholder.js"type="text/javascript"></script><![endif]-->
    </body>
 </html>
