@@ -13,9 +13,7 @@
 
    </head>
    <body class="appear-animate">
-      <div class="page-loader">
-         <div class="loader">Loading...</div>
-      </div>
+     
       <div class="page"id="top">
          <nav class="main-nav js-stick ">
             <div class="relative clearfix full-wrapper">
@@ -35,7 +33,7 @@
          <main id="main">
             
           
-		   <section class="page-section bg-light parallax-6 bg-light-alfa-90"id="menu"data-background="../svg/sprinkle.svg">
+		   <section class="page-section">
 		    <div class="container relative">
 			<h2 class="font-alt mb-70 mb-sm-40 section-title">J_DORK TOOL</h2>
                             
