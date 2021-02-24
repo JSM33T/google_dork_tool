@@ -2,7 +2,7 @@
 Basic google search/dork tool
 <p align="center">
   <a>
-    <img src="screenshot.png" alt="Screenshot" >
+    <img src="screenshot.jpg" alt="Screenshot" >
   </a>
  </p> 
    <p align="center">
